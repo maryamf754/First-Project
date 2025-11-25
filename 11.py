@@ -8,7 +8,7 @@ class Student:
     def email(self):
         return f'{self.fname}_{self.lname}@gmail.com'
     def get_score(self,username,password):
-        if username == 'admin' and password == '123':
+        if username == 'admin' and password == '456':
             return self.__score
         else:
            return 'Username or Password not valid!!!'
@@ -27,9 +27,7 @@ class Student_Python(Student):
    def fullname(self):
        return f'-{self.fname}\t{self.lname}'
 
-print('**')
-print("mmm")
-print("888")
+
 sp1 = Student_Python('alireza','moradi', 16)
 print(sp1.fullname())
 s1 = Student('ali', 'rezayee',20)
