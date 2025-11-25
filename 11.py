@@ -27,7 +27,8 @@ class Student_Python(Student):
    def fullname(self):
        return f'-{self.fname}\t{self.lname}'
 
-print('**********************')
+print('**')
+print("nnn")
 sp1 = Student_Python('alireza','moradi', 16)
 print(sp1.fullname())
 s1 = Student('ali', 'rezayee',20)
